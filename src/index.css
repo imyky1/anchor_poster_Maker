@@ -1,10 +1,5 @@
-body{
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-}
-:root {
-  font-family:  system-ui, Avenir, Helvetica, Arial, sans-serif;
+.PosterForm {
+  font-family:'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -14,11 +9,11 @@ body{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#root {
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212;
+  min-width: 800px;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -27,12 +22,6 @@ body{
   border: 1px solid #121212;
   height: auto;
   padding: 40px 80px;
-  margin-top: 40px;
-  border-radius: 10px;
-}
-.PosterForm {
-  background-color: #121212;
-  min-width: 800px;
 }
 .PosterForm form {
   display: flex;
@@ -122,7 +111,7 @@ body{
   height: 48px;
   margin-top: 0px;
   left: 274px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
@@ -135,7 +124,7 @@ body{
   margin-top: 0;
   width: 574px;
   height: auto;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   line-height: 80px;
   font-size: 60px;
   font-weight: 700;
@@ -152,7 +141,7 @@ body{
   justify-content: center;
   /* border: 0.1px solid black; */
   align-items: center;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -174,6 +163,7 @@ body{
   justify-content: center;
   align-items: start;
   font-size: 24px;
+  font-family: 'Inter', sans-serif;;
   line-height: 29px;
   gap: 8px;
   font-weight: 700;
@@ -194,6 +184,7 @@ body{
   justify-content: center;
   line-height: 28px;
   letter-spacing: 0.09em;
+  font-family: 'Inter', sans-serif;;
   font-size: 21px;
   font-weight: 700;
 }
@@ -232,7 +223,7 @@ body{
 .WAposter .speaker_container h6 {
   width: 99px;
   height: 28px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 28px;
@@ -244,7 +235,7 @@ body{
 .WAposter .speaker_container h3 {
   width: auto;
   height: 34px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 34px;
@@ -255,7 +246,7 @@ body{
 .WAposter .speaker_container h4 {
   width: 266px;
   height: 24px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -320,7 +311,7 @@ body{
   height: 48px;
   margin-top: 70px;
   left: 274px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
@@ -333,7 +324,7 @@ body{
   margin-top: 0;
   width: 740px;
   height: auto;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 70px;
   line-height: 90px;
   font-weight: 700;
@@ -348,9 +339,9 @@ body{
   height: 60px;
   display: flex;
   justify-content: center;
-  border: 0.1px solid black;
+  /* border: 0.1px solid black; */
   align-items: center;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -371,6 +362,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  font-family: 'Inter', sans-serif;;
   font-size: 30px;
   font-weight: 700;
   gap: 8px;
@@ -390,6 +382,7 @@ body{
   align-items: center;
   justify-content: center;
   font-size: 26px;
+  font-family: 'Inter', sans-serif;;
   line-height: 28px;
   letter-spacing: 0.09em;
   font-weight: 700;
@@ -428,7 +421,7 @@ body{
 .Igposter .speaker_container h6 {
   width: 197px;
   height: 48px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 300;
   line-height: 28px;
@@ -440,7 +433,7 @@ body{
 .Igposter .speaker_container h3 {
   width: auto;
   height: 58px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 34px;
@@ -451,7 +444,7 @@ body{
 .Igposter .speaker_container h4 {
   width: 478px;
   height: 44px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 24px;
@@ -521,7 +514,7 @@ body{
   margin-top: 100px;
   margin-left: 70px;
   left: 274px;
-  font-family: sans-serif;
+  font-family:'Inter', sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 48px;
@@ -536,7 +529,7 @@ body{
   width: 584px;
   height: auto;
   text-align: start;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 50px;
   font-weight: 700;
 }
@@ -552,9 +545,9 @@ body{
   height: 40px;
   display: flex;
   justify-content: center;
-  border: 0.1px solid black;
+  /* border: 0.1px solid black; */
   align-items: center;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -579,6 +572,7 @@ body{
   justify-content: center;
   align-items: start;
   font-size: 20px;
+  font-family: 'Inter', sans-serif;;
   line-height: 24.2px;
   font-weight: 700;
 }
@@ -597,7 +591,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;;
   letter-spacing: 0.09em;
   line-height: 28px;
   font-weight: 600;
@@ -607,8 +602,8 @@ body{
   width: 14px;
   height: 18px;
   position: absolute;
-  top: 10px;
-  left: 30px;
+  top: 15px;
+  left: 25px;
 }
 .WAmssg .speaker_container {
   display: flex;
@@ -638,7 +633,7 @@ body{
 .WAmssg .speaker_container h6 {
   width: 79px;
   height: 28px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -650,7 +645,7 @@ body{
 .WAmssg .speaker_container h3 {
   width: auto;
   height: 24px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -661,7 +656,7 @@ body{
 .WAmssg .speaker_container h4 {
   width: 213px;
   height: 19px;
-  font-family:  sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19.36px;
@@ -729,7 +724,7 @@ body{
   margin-top: 89px;
   margin-left: 70px;
   margin-bottom: 0;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 33.89px;
@@ -744,7 +739,7 @@ body{
   width: 607px;
   height: auto;
   text-align: start;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 50px;
   line-height: 60.51px;
   font-weight: 700;
@@ -761,9 +756,9 @@ body{
   height: 40px;
   display: flex;
   justify-content: center;
-  border: 0.1px solid black;
+  /* border: 0.1px solid black; */
   align-items: center;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
@@ -785,6 +780,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
   font-size: 19px;
   line-height: 24px;
@@ -804,7 +800,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-family: 'Inter', sans-serif;;
+  font-size: 18px;
   line-height: 28px;
   font-weight: 600;
   letter-spacing: 1.9px;
@@ -846,7 +843,7 @@ body{
 .Linkedin .speaker_container h6 {
   /* width: 79px; */
   height: 28px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 28px;
@@ -858,7 +855,7 @@ body{
 .Linkedin .speaker_container h3 {
   width: auto;
   height: 24px;
-  font-family:  sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
@@ -869,7 +866,7 @@ body{
 .Linkedin .speaker_container h4 {
   width: 213px;
   height: 19px;
-  font-family:  sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24.36px;
@@ -878,6 +875,7 @@ body{
   color: #bdbdbd;
   margin: 5px 0;
 }
+
 .Igmssg {
   position: relative;
   background: linear-gradient(180deg, #373737 0%, #0e001c 100%);
@@ -939,7 +937,7 @@ body{
   margin-top: 164px;
   margin-left: 70px;
   left: 274px;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
@@ -954,7 +952,7 @@ body{
   width: 580px;
   height: auto;
   text-align: start;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 60px;
   line-height: 80px;
   font-weight: 700;
@@ -971,9 +969,9 @@ body{
   height: 40px;
   display: flex;
   justify-content: center;
-  border: 0.1px solid black;
+  /* border: 0.1px solid black; */
   align-items: center;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -997,6 +995,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   line-height: 24.2px;
   font-weight: 700;
@@ -1016,7 +1015,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-family: 'Inter', sans-serif;;
+  font-size: 14px;
   letter-spacing: 0.09em;
   line-height: 28px;
   font-weight: 600;
@@ -1057,7 +1057,7 @@ body{
 .Igmssg .speaker_container h6 {
   width: 79px;
   height: 28px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -1069,7 +1069,7 @@ body{
 .Igmssg .speaker_container h3 {
   width: auto;
   height: 24px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -1080,7 +1080,7 @@ body{
 .Igmssg .speaker_container h4 {
   width: 213px;
   height: 19px;
-  font-family:  sans-serif;
+  font-family:  'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 19.36px;
@@ -1093,12 +1093,13 @@ body{
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 20px 60px;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
+  font-family: 'Inter', sans-serif;
   border: 2px solid #ff5c5c;
   background-color: #121212;
+  color: #f3f3f3;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -1221,6 +1222,7 @@ button:focus-visible {
 /* Example styles for image container */
 .imageContainer {
   display: flex; /* or use grid */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px; 
@@ -1237,6 +1239,14 @@ button:focus-visible {
   width: 200px;
   margin-top: 20px;
 }
+.imageContainer .posters{
+  margin-top: 50px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
 /* Example style for images inside the container */
 .imageContainer img {
   max-width: 400px; /* Adjust the image width as needed */
